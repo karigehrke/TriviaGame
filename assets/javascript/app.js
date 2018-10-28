@@ -1,10 +1,10 @@
 $(document).ready(function () {
     var startNum = 45;
     var intervalId;
-    var question1CorrectAnswer = "10";
-    var question2CorrectAnswer = "skittles";
-    var question3CorrectAnswer = "3.7 Million";
-    var question4CorrectAnswer = "1993";
+    var question1CorrectAnswer = $("#michael1");
+    var question2CorrectAnswer = $("#candy3");
+    var question3CorrectAnswer = $("#pumpkin2");
+    var question4CorrectAnswer = $("#hocus3");
 
    
     
