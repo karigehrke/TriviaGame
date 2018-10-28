@@ -1,0 +1,25 @@
+body {
+    background-image: url("../images/GettyImages-180068540_edit.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+
+}
+
+.container {
+    background: black;
+    width: 600px;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+h6 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+}
+
+.form-check {
+    font-family: 'Amatic SC', cursive;
+}

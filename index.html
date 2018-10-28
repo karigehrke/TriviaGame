@@ -8,82 +8,83 @@
     <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!--Link to CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="container">
+    <div class="container text-center text-light p-3 mt-5 rounded">
+        
 
-        <h1>Halloween Trivia!</h1>
+        <h1 class="text-center text-warning mb-4">Halloween Trivia!</h1>
 
-        <h6>Time Remaining: <span id="display"></span></h6>
+        <h6 class="text-center mb-4">Time Remaining: <span id="display"></span></h6>
 
-        <h6 id="question1">How many Michael Myers Halloween movies are there?</h6>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1">10</label>
+        <h6 id="question1 text-center">How many Michael Myers Halloween movies are there?</h6>
+        <div class="form-check form-check-inline mb-4">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="michael1" value="option1">
+            <label class="form-check-label" for="michael1">10</label>
         </div>
 
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">7</label>
+        <div class="form-check form-check-inline text-center">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="michael2" value="option2">
+            <label class="form-check-label" for="michael2">7</label>
         </div>
 
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-            <label class="form-check-label" for="inlineRadio3">3</label>
-        </div>
-
-        <br>
-
-        <h6 id="question2">What is the most popular Halloween candy?</h6>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1">Candy Corn</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">M&M's</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio3" value="option3">
-            <label class="form-check-label" for="inlineRadio3">Skittles</label>
+        <div class="form-check form-check-inline text-center">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="michael3" value="option3">
+            <label class="form-check-label" for="michael3">3</label>
         </div>
 
         <br>
 
-        <h6 id="question3">How many pumpkins are sold every Halloween?</h6>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1">1 Billion</label>
+        <h6 id="question2 text-center">What is the most popular Halloween candy?</h6>
+        <div class="form-check form-check-inline mb-4">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="candy1" value="option1">
+            <label class="form-check-label" for="candy1">Candy Corn</label>
         </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">3.7 Million</label>
+        <div class="form-check form-check-inline text-center">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="candy2" value="option2">
+            <label class="form-check-label" for="candy2">M&M's</label>
         </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio3" value="option3">
-            <label class="form-check-label" for="inlineRadio3">5.2 Million</label>
+        <div class="form-check form-check-inline text-center">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="candy3" value="option3">
+            <label class="form-check-label" for="candy3">Skittles</label>
         </div>
 
         <br>
 
-        <h6 id="question4">What year did the movie "Hocus Pocus" come out?</h6>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1">1990</label>
+        <h6 id="question3 text-center">How many pumpkins are sold every Halloween?</h6>
+        <div class="form-check form-check-inline mb-4">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="pumpkin1" value="option1">
+            <label class="form-check-label" for="pumpkin1">1 Billion</label>
         </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">1995</label>
+        <div class="form-check form-check-inline text-center">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="pumpkin2" value="option2">
+            <label class="form-check-label" for="pumpkin2">3.7 Million</label>
         </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="option3">
-            <label class="form-check-label" for="inlineRadio3">1993</label>
+        <div class="form-check form-check-inline text-center">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="pumpkin3" value="option3">
+            <label class="form-check-label" for="pumpkin3">5.2 Million</label>
         </div>
 
+        <br>
 
+        <h6 id="question4 text-center">What year did the movie "Hocus Pocus" come out?</h6>
+        <div class="form-check form-check-inline mb-4">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="hocus1" value="option1">
+            <label class="form-check-label" for="hocus1">1990</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="hocus2" value="option2">
+            <label class="form-check-label" for="hocus2">1995</label>
+        </div>
+        <div class="form-check form-check-inline text-center">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="hocus3" value="option3">
+            <label class="form-check-label" for="hocus3">1993</label>
+        </div>
+<br>
+        <input class="btn btn-warning text-center mt-4" type="submit" value="Submit" id="submit">
         <div id="correct-ans"></div>
 
 
